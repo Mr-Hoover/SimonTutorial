@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { AutoAffix } from "react-overlays";
-import "../styles/MenuButton.scss";
+import "../styles/MenuButton.css";
 
 class MenuButton extends Component {
   render() {
