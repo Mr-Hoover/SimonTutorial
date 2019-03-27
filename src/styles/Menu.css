@@ -1,0 +1,76 @@
+#flyoutMenu {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s cubic-bezier(0, 0.52, 0, 1);
+  overflow: scroll;
+  z-index: 1000;
+}
+
+#flyoutMenu.hide {
+  transform: translate3d(-100vw, 0, 0);
+}
+
+#flyoutMenu.show {
+  transform: translate3d(0vw, 0, 0);
+  overflow: hidden;
+}
+
+#flyoutMenu h3 a {
+  color: #222;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+#flyoutMenu h3 a:hover {
+  text-decoration: underline;
+}
+
+.Menu {
+  padding: 10px;
+  width: 50vw;
+  height: 80vh;
+  background-color: #428084;
+}
+
+.tooltip {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  height: 40px;
+}
+
+.tooltip .stepDescript {
+  visibility: hidden;
+  width: 380px;
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 15px;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .stepDescript::after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  right: 100%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #333 transparent transparent;
+}
+
+.tooltip:hover .stepDescript {
+  visibility: visible;
+  opacity: 1;
+}

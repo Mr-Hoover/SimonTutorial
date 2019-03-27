@@ -1,0 +1,111 @@
+$colorSize: 13px;
+$radius: 100%;
+$around: 1px solid #333;
+
+
+
+#roundButton {
+  background-color: #333;
+  padding: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  outline: none;
+  transition: all 0.2s cubic-bezier(0, 1.26, 0.8, 1.28);
+}
+
+#roundButton:hover {
+  cursor: pointer;
+  transform: scale(1.2, 1.2);
+}
+
+.affixpanel {
+  padding: 1px;
+  background-color: transparent;
+  z-index: 99 !important;
+}
+.topStep {
+  display: flex;
+  justify-content: left;
+  background-color: transparent;
+}
+
+.Colors {
+  display: flex;
+  flex-wrap: wrap;
+  }
+  
+.Green {
+  background: green;
+  border-top-left-radius: $radius;
+  margin: auto;
+  height: $colorSize;
+  width: $colorSize;
+  padding: 1px;
+  border: $around
+  }
+  .Green:hover {
+    background: #7CFC00;
+  }
+  
+  .Red {
+  background: #b92e34;
+  border-top-right-radius: $radius;
+  margin: auto;
+  height: $colorSize;
+  width: $colorSize;
+  padding: 1px;
+  border: $around
+  }
+  .Red:hover {
+    background: red;
+  }
+  
+  .Yellow {
+  background: #DCD900;
+  border-bottom-left-radius: $radius;
+  margin: auto;
+  height: $colorSize;
+  width: $colorSize;
+  padding: 1px;
+  border: $around
+  }
+  .Yellow:hover {
+    background: Yellow;
+  }
+  
+  .Blue {
+  background: blue;
+  border-bottom-right-radius: $radius;
+  margin: auto;
+  height: $colorSize;
+  width: $colorSize;
+  padding: 1px;
+  border: $around
+  }
+  .Blue:hover {
+    background: #007CFF;
+  }
+  
+  .ControlPanel {
+  position: absolute;
+  border-radius: $radius;
+  margin: 8px 0 0 8px;
+  background:#333;;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  }
+
+  img {
+    margin-top: 4px;
+    border-radius: 15px;
+    }
+    
+  

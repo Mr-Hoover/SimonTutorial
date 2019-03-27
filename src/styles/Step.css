@@ -1,0 +1,14 @@
+.panel-body {
+  padding: 1px;
+  background-color: #eee;
+}
+.topStep {
+  display: flex;
+  justify-content: left;
+  background-color: #eee;
+}
+
+pre code {
+  display: block;
+  padding: 20px;
+}
