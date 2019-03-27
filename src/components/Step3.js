@@ -9,7 +9,7 @@ import CodeBlock from "./CodeBlock";
 class Step3 extends Component {
   render() {
     return (
-      <div classname="Step">
+      <div className="Step">
         <AutoAffix container={this}>
           <div className="panel panel-default">
             <div className="panel-body">

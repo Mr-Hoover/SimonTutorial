@@ -23,11 +23,11 @@ class Menu extends Component {
               <a href="#Top">Home</a>
             </h3>
 
-            <div class="tooltip">
+            <div className="tooltip">
               <h3>
                 <a href="#StepOne">Step 1: Set up </a>
               </h3>
-              <span class="stepDescript">
+              <span className="stepDescript">
                 - 4 color boxes (green, red, yellow, blue)
                 <br />
                 - Control Panel w/ 2 buttons (start / replay)
@@ -37,32 +37,32 @@ class Menu extends Component {
               </span>
             </div>
 
-            <div class="tooltip">
+            <div className="tooltip">
               <h3>
                 <a href="#StepTwo">Step 2: Blink / Play</a>
               </h3>
-              <span class="stepDescript">
+              <span className="stepDescript">
                 - Get Color to Blink / Play Sound
                 <br />
               </span>
             </div>
 
-            <div class="tooltip">
+            <div className="tooltip">
               <h3>
                 <a href="#StepThree">Step 3: Blink by Num</a>
               </h3>
-              <span class="stepDescript">
+              <span className="stepDescript">
                 - Generate a random # for Simon’s 1st #<br />
                 - Get the Correct Color div to blink
                 <br />
               </span>
             </div>
 
-            <div class="tooltip">
+            <div className="tooltip">
               <h3>
                 <a href="#StepFour">Step 4: Blink Next</a>
               </h3>
-              <span class="stepDescript">
+              <span className="stepDescript">
                 - Generate next random # for Simon
                 <br />
                 - Get the Correct Color div to blink for all #’s in
@@ -71,11 +71,11 @@ class Menu extends Component {
               </span>
             </div>
 
-            <div class="tooltip">
+            <div className="tooltip">
               <h3>
                 <a href="#StepFive">Step 5: User Blink</a>
               </h3>
-              <span class="stepDescript">
+              <span className="stepDescript">
                 - Get Color div to blink when clicked on
                 <br />
                 - Get userSequence to update w/ div clicked
@@ -83,11 +83,11 @@ class Menu extends Component {
               </span>
             </div>
 
-            <div class="tooltip">
+            <div className="tooltip">
               <h3>
                 <a href="#StepSix">Step 6: Right & Wrong</a>
               </h3>
-              <span class="stepDescript">
+              <span className="stepDescript">
                 - Have app compare User vs Simon
                 <br />
                 - sequence wrong
@@ -97,11 +97,11 @@ class Menu extends Component {
               </span>
             </div>
 
-            <div class="tooltip">
+            <div className="tooltip">
               <h3>
                 <a href="#StepSeven">Step 7: Buttons</a>
               </h3>
-              <span class="stepDescript">
+              <span className="stepDescript">
                 - Set Start / Reset Button
                 <br />
                 - Set Replay Sequence Button
@@ -109,11 +109,11 @@ class Menu extends Component {
               </span>
             </div>
 
-            <div class="tooltip">
+            <div className="tooltip">
               <h3>
                 <a href="#StepEight">Step 8: CSS</a>
               </h3>
-              <span class="stepDescript">
+              <span className="stepDescript">
                 - Final changes to React return
                 <br />
                 - Final changes to CSS

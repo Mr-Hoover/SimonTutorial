@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Directions extends Component {
   render() {
     return (
-      <div classname="Directions">
+      <div className="Directions">
         <h1>
           Building{" "}
           {

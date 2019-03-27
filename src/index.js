@@ -20,7 +20,7 @@ function App() {
       <ScrollableAnchor id={"Top"}>
         <MenuContainer />
       </ScrollableAnchor>
-      <div clasName="body">
+      <div className="body">
         <div className="parallax" />
         <Directions />
         <Step1 />
