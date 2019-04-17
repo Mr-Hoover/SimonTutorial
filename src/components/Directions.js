@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../styles/directions.css";
 
 class Directions extends Component {
   render() {
@@ -15,6 +16,14 @@ class Directions extends Component {
           }{" "}
           in React
         </h1>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/KVzZVYtt64I"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        />
         <h4>
           Simon is an electronic game of memory skill. The device has four
           colored buttons, each producing a particular tone when it is pressed
@@ -23,6 +32,8 @@ class Directions extends Component {
           player must reproduce that order by pressing the buttons. As the game
           progresses, the number of buttons to be pressed increases.
         </h4>
+
+        <a href="https://simongamedemo.netlify.com/"> Simon Game Demo</a>
       </div>
     );
   }
