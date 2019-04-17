@@ -6,6 +6,8 @@ import codeReact from "../codeExamples/reactStep7.md";
 import ReactMarkdown from "react-markdown";
 import CodeBlock from "./CodeBlock";
 
+
+
 class Step7 extends Component {
   render() {
     return (

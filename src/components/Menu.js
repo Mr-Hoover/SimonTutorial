@@ -3,6 +3,9 @@ import "../styles/Menu.css";
 import ScrollableAnchor from "react-scrollable-anchor";
 import App from "../index.js";
 
+import { configureAnchors } from 'react-scrollable-anchor'
+configureAnchors({offset: -100})
+
 class Menu extends Component {
   render() {
     var visibility = "hide";
@@ -20,7 +23,13 @@ class Menu extends Component {
         >
           <div className="Menu">
             <h3>
-              <a href="#Top">Home</a>
+              <a href="#Top">
+               <img
+              className="Logo"
+              src="https://static-asset-delivery.hasbroapps.com/5d395fc4f350191038d25e68a836a9422da9cde8/f5157f9173a103e2d3cb7747f3080681.png"
+              height="40"
+            />
+              </a>
             </h3>
 
             <div className="tooltip">

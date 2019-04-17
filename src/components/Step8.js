@@ -7,6 +7,8 @@ import codeCSS from "../codeExamples/cssStep8.md";
 import ReactMarkdown from "react-markdown";
 import CodeBlock from "./CodeBlock";
 
+
+
 class Step8 extends Component {
   render() {
     return (
@@ -28,7 +30,7 @@ class Step8 extends Component {
         <p>React:</p>
         <ReactMarkdown source={codeReact} renderers={{ code: CodeBlock }} />
 
-        <p>CSS:</p>
+        <p>SCSS:</p>
         <ReactMarkdown source={codeCSS} renderers={{ code: CodeBlock }} />
       </div>
     );

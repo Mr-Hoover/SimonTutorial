@@ -2,34 +2,22 @@
   background-color: #eee;
   font-family: sans-serif;
   font-size: 18px;
-  padding: 25px;
   margin: 0;
   overflow: auto;
 }
 
 .body {
+  margin: 25px 70px 25px 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
 }
 
 .parallax {
-  /* The image used */
   background-image: url("https://i5.walmartimages.com/asr/874918ab-0e88-41b5-8830-ac2e84593ca7_1.71676979300df6412b73730972c68256.jpeg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
+  height: 50rem;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
 }

@@ -5,6 +5,7 @@ import "../styles/MenuButton.css";
 class MenuButton extends Component {
   render() {
     return (
+      <div className="panelDefault">
       <AutoAffix>
         <div className="panel panel-default">
           <div className="affixpanel">
@@ -28,6 +29,7 @@ class MenuButton extends Component {
           </div>
         </div>
       </AutoAffix>
+      </div>
     );
   }
 }

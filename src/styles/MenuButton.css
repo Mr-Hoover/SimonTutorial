@@ -15,16 +15,14 @@
   transform: scale(1.2, 1.2);
 }
 
-.affixpanel {
-  padding: 1px;
-  background-color: transparent;
-  z-index: 99;
+.panelDefault {
+  background-color: white;
 }
 
-.topStep {
-  display: flex;
-  justify-content: left;
+.affixpanel {
+  padding: 10px;
   background-color: transparent;
+  z-index: 99;
 }
 
 .Colors {
