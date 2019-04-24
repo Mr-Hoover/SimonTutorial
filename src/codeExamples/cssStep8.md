@@ -111,7 +111,7 @@ img {
     background:$controlsColor;
     Display:flex;
     Flex-direction:column;
-    justify-content: end;
+    justify-content: center;
     align-items: flex-start;
 }
 
