@@ -112,6 +112,7 @@ img {
     Display:flex;
     Flex-direction:column;
     justify-content: end;
+    align-items: flex-start;
 }
 
 button {

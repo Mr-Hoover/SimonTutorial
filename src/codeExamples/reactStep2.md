@@ -16,12 +16,12 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = (
+    this.state = {
     blinkGreen: [],
     blinkRed: [],
     blinkYellow: [],
     blinkBlue: []
-    )};
+    };
   }
 
 //Make the color blink / play sound
@@ -74,8 +74,8 @@ class App extends React.Component {
 
 
 Add to color block <div> :
-style={{ opacity: `${this.state.blinkGreen}` }}
+  style={{ opacity: `${this.state.blinkGreen}` }}
 
 Add to a button for testing :
-onClick={() => this.blinkCheck(#)}
+  onClick={() => this.blinkCheck(#)}
 ```

@@ -1,4 +1,8 @@
 ```
+Change CSS to SCSS:
+  import "./styles.scss";
+
+
 return (
   <div className="App">
     <div className="Simon">
@@ -41,8 +45,10 @@ return (
                 <button onClick={() => this.blinkEach()}/>
                 <p> REPLAY </p>
               </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
   </div>
+);
 ```

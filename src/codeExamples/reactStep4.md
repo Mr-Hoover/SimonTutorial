@@ -24,4 +24,10 @@
       });
     };
 
+
+To test change onClick to:
+  onClick={() => this.blinkEach()
+and to the other button:
+  onClick={() => this.nextLevel()}
+
 ```
