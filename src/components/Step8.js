@@ -7,18 +7,17 @@ import codeCSS from "../codeExamples/cssStep8.md";
 import ReactMarkdown from "react-markdown";
 import CodeBlock from "./CodeBlock";
 
-
-
 class Step8 extends Component {
   render() {
     return (
       <div className="Step">
+        <ScrollableAnchor id={"StepEight"}>
+          <div className="anchorPoint" />
+        </ScrollableAnchor>
         <AutoAffix container={this}>
           <div className="panel panel-default">
             <div className="panel-body">
-              <ScrollableAnchor id={"StepEight"}>
-                <h2>Step 8: CSS </h2>
-              </ScrollableAnchor>
+              <h2>Step 8: CSS </h2>
             </div>
           </div>
         </AutoAffix>

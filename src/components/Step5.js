@@ -6,18 +6,17 @@ import codeReact from "../codeExamples/reactStep5.md";
 import ReactMarkdown from "react-markdown";
 import CodeBlock from "./CodeBlock";
 
-
-
 class Step5 extends Component {
   render() {
     return (
       <div className="Step">
+        <ScrollableAnchor id={"StepFive"}>
+          <div className="anchorPoint" />
+        </ScrollableAnchor>
         <AutoAffix container={this}>
           <div className="panel panel-default">
             <div className="panel-body">
-              <ScrollableAnchor id={"StepFive"}>
-                <h2>Step 5: User Blink </h2>
-              </ScrollableAnchor>
+              <h2>Step 5: User Blink </h2>
             </div>
           </div>
         </AutoAffix>

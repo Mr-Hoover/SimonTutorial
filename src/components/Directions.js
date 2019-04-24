@@ -33,7 +33,9 @@ class Directions extends Component {
           progresses, the number of buttons to be pressed increases.
         </h4>
 
-        <a href="https://simongamedemo.netlify.com/"> Simon Game Demo</a>
+        <a href="https://simongamedemo.netlify.com/" target="_blank">
+          Simon Game Demo
+        </a>
       </div>
     );
   }
